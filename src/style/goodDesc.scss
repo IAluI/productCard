@@ -1,0 +1,152 @@
+.Description {
+  * {
+    box-sizing: border-box;
+  }
+  h2 {
+    font: {
+      size: 1.25rem;
+    }
+  }
+  p, h2 {
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  .m-0 {
+    margin: 0;
+  }
+  .MainFunc {
+    .MainFunc-Category {
+      column-break-inside: avoid;
+      page-break-inside: avoid;
+      break-inside: avoid;
+      > h3 {
+        font: {
+          size: 1.25rem;
+          weight: 300;
+        }
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+      }
+      > ul {
+        list-style: none;
+        h4 {
+          font: {
+            size: 1.125rem !important;
+            weight: 700;
+          }
+          color: #30cbf2;
+          &:before {
+            content: '- ';
+          }
+        }
+      }
+      @media (min-width: 768px) {
+        padding-left: 4.5rem;
+      }
+    }
+    @media (min-width: 768px) {
+      column-count: 2;
+    }
+  }
+  .DetailSpec {
+    > h3 {
+      font: {
+        size: 1.125rem;
+        weight: 700;
+      }
+      line-height: 1.5;
+      color: #30cbf2;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      @media (min-width: 1100px) {
+        width: calc(100% - (100% - 460px) * 0.4);
+      }
+    }
+    td {
+      line-height: 2;
+      border: {
+        bottom: 1px solid #9e9e9e;
+        top: 1px solid #9e9e9e;
+      }
+      &:first-child {
+        width: 62%;
+      }
+    }
+  }
+  .Install-Std {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .Install-StdItem {
+      position: relative;
+      max-width: 300px;
+      padding: {
+        left: 1rem;
+        right: 1rem;
+        top: 1rem;
+        bottom: 4rem;
+      };
+      margin-bottom: 1.5rem;
+      border: 1px solid #ddd;
+      > img {
+        width: 100%;
+      }
+      > h3 {
+        font: {
+          size: 1.125rem;
+          weight: 700;
+        }
+        line-height: 1.5;
+        color: #5ea401;
+      }
+      > ul {
+        list-style: none;
+        li:before {
+          content: '- ';
+        }
+      }
+      .Install-StdPrice {
+        position: absolute;
+        left: 2rem;
+        bottom: 0.75rem;
+        font: {
+          size: 1.5rem;
+        };
+      }
+      .Install-StdLink {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 0.75rem;
+        color: #fff;
+        background-color: #99cc33;
+
+      }
+    }
+  }
+  .Install-Unstd {
+    > ul {
+      padding-left: 1rem;
+      list-style: none;
+      li {
+        font-weight: 300;
+        &:before {
+          content: "- ";
+        }
+      }
+    }
+    a {
+      text-decoration: underline;
+      color: #30cbf2;
+      font-weight: 700;
+      &:hover {
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
