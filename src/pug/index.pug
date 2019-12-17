@@ -5,6 +5,8 @@ html(lang='ru')
     meta(name='viewport', content='width=device-width', initial-scale='1', shrink-to-fit='no')
     link(rel='stylesheet', type='text/css', href='/uploaded/files/css/site.css')
     link(rel='stylesheet', type='text/css', href='/uploaded/files/css/product.css')
+    script(src="https://code.jquery.com/jquery-3.4.1.min.js", integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=", crossorigin="anonymous")
+    script(type='text/javascript', src='/uploaded/files/js/product.js')
   body
     main(id='content')
       div.container.clear
@@ -201,8 +203,7 @@ html(lang='ru')
                       li питание в кабель-канале до 2м + вилка
                       li отверстие в наружной стене - 1 шт
                       li дренаж выводится на улицу
-                    div.Install-StdPrice
-                      | 7 500 Р
+                    div.Install-StdPrice.Install-StdPrice_type_win
                     a(href="/pages/Montag#stdInstall").Install-StdLink
                       | подробнее
                   div.Install-StdItem
@@ -216,8 +217,7 @@ html(lang='ru')
                       li отверстие в наружной стене - 1 шт
                       li отверстие в стене балкона - 1 шт
                       li дренаж выводится на улицу
-                    div.Install-StdPrice
-                      | 7 500 Р
+                    div.Install-StdPrice.Install-StdPrice_type_bal
                     a(href="/pages/Montag#stdInstall").Install-StdLink
                       | подробнее
                   div.Install-StdItem
@@ -230,8 +230,7 @@ html(lang='ru')
                       li питание в кабель-канале до 2 м + вилка
                       li отверстие в наружной стене - 1 шт
                       li дренаж выводится на улицу
-                    div.Install-StdPrice
-                      | 7 500 Р
+                    div.Install-StdPrice.Install-StdPrice_type_wal
                     a(href="/pages/Montag#stdInstall").Install-StdLink
                       | подробнее
                 h2
@@ -249,5 +248,4 @@ html(lang='ru')
                     | ознакомтесь пожалуйста с нашим пройсом по
                     a(href="/pages/Montag#price") ссылке
                     | .
-    script(src="https://code.jquery.com/jquery-3.4.1.min.js", integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=", crossorigin="anonymous")
-    script(type='text/javascript', src='/uploaded/files/js/product.js')
+            script(type="text/javascript", src="/uploaded/files/js/goodDesc.js")

@@ -233,7 +233,7 @@ gulp.task('webserver', () => {
     middleware: [
       function(req, res, next) {
         //console.log(req.url);
-        if (!/(\.css$)|(\.js$)/.test(req.url)) {
+        if (!/(\.css$)|(\.js$)|(\.json$)/.test(req.url)) {
           req.url = '/pages' + req.url;
         }
         //console.log(req.url);
