@@ -1,5 +1,13 @@
 {
-  ".Install-StdPrice_type_win": "7 500 Р",
-  ".Install-StdPrice_type_bal": "7 500 Р",
-  ".Install-StdPrice_type_wal": "7 000 Р"
+  ".InstallPrice_power_up3kw_type_wind": "7 500 Р",
+  ".InstallPrice_power_up3kw_type_balc": "8 000 Р",
+  ".InstallPrice_power_up3kw_type_wall": "8 500 Р",
+
+  ".InstallPrice_power_3to5kw_type_wind": "7 500 Р",
+  ".InstallPrice_power_3to5kw_type_balc": "8 000 Р",
+  ".InstallPrice_power_3to5kw_type_wall": "8 500 Р",
+
+  ".InstallPrice_power_more5kw_type_wind": "7 000 Р",
+  ".InstallPrice_power_more5kw_type_balc": "7 500 Р",
+  ".InstallPrice_power_more5kw_type_wall": "8 000 Р"
 }
